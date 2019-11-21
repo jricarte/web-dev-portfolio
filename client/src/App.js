@@ -6,7 +6,7 @@ import Search from "./pages/Search";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -15,14 +15,16 @@ function App() {
       <Router>
         <div>
           <Navbar />
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          
           <Wrapper>
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
             <Route exact path="/discover" component={Discover} />
             <Route exact path="/search" component={Search} />
           </Wrapper>
+          <img src={logo} className="App-logo" alt="logo" />
           <Footer />
+    
         </div>
       </Router>
     </div>

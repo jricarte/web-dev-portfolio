@@ -4,7 +4,11 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Pupster 2017</span>
+      <p>A portfolio built by Jordan Ricarte.<span>Built with React</span></p>
+  
+  
+  
+    
     </footer>
   );
 }
