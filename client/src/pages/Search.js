@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import EmailForm from "../components/EmailForm";
+// import EmailForm from "../components/EmailForm";
 import Hero from "../components/Hero";
 
 
@@ -10,9 +10,8 @@ class Search extends Component {
       <div>
         <Hero>
             <h1>say hello!</h1>
-            <p>Contact me at jordan@ricarte.net</p>
+            <a href="mailto:jordan@ricarte.net?subject=subject here">jordan@ricarte.net</a>
         </Hero>
-      <EmailForm />
       </div>
     );
   }
