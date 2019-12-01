@@ -10,7 +10,7 @@ class Contact extends Component {
       <div>
         <Hero>
             <h1>say hello!</h1>
-            <a href="mailto:jordan@ricarte.net?subject=subject here">jordan@ricarte.net</a>
+            <a href="mailto:jordan@ricarte.net?subject=Portfolio Contact Inquiry">jordan@ricarte.net</a>
         </Hero>
       </div>
     );
