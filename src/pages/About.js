@@ -3,12 +3,17 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import logo from '../logo.svg';
 
 function About() {
   return (
     <div>
       <Hero backgroundImage="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
         <h1>Hi, I'm Jordan. I design and build user interfaces</h1>
+        <h2>
+          Developed with React
+        <img src={logo} className="App-logo" alt="logo"></img>
+        </h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>

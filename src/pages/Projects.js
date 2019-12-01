@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-class Discover extends Component {
+class Projects extends Component {
 
   render() {
     return (
@@ -15,4 +15,4 @@ class Discover extends Component {
   }
 }
 
-export default Discover;
+export default Projects;

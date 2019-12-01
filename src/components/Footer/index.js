@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
+import logo from "../../logo.svg"
 
 function Footer() {
   return (
     <footer className="footer">
-      <p>A portfolio built by Jordan Ricarte.<span>Built with React</span></p>
-  
+      Built with React
+      <img src={logo} className="react-logo" alt="logo" />
+
   
   
     

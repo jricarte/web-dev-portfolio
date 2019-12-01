@@ -6,3 +6,10 @@ nav.navbar.navbar-default {
   font-family: 'Dosis', sans-serif;
 
 }
+
+.react-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vmin;
+  pointer-events: none;
+ 
+}

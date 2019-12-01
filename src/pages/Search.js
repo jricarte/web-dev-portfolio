@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Hero from "../components/Hero";
 
 
-class Search extends Component {
+class Contact extends Component {
   
   render() {
     return (
@@ -17,4 +17,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Contact;
