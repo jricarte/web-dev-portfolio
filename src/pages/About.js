@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import logo from '../logo.svg';
+import AwesomeSlider from 'react-awesome-slider';
 
 function About() {
   return (
