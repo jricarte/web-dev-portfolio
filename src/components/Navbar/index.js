@@ -44,8 +44,8 @@ function Navbar() {
         </ul>
       </div>
     </nav>
-    Developed with React
-      <img src={logo} className="App-logo" alt="logo" />
+    {/* Developed with React */}
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
       </div>
   );
 }
